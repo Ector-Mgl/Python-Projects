@@ -42,7 +42,7 @@ label_text.place(relx=0.5, rely=0.3, anchor='center')
 
 label_main= Label(textvariable=var, fg='purple', font='SansSerif 80 bold', bg='black')
 label_main.place(relx=0.5, rely=0.5, anchor='center')
-img= PhotoImage(file=r'assets\photodump.png')
+img= PhotoImage(file=r'photodump.png')
 label_img= Label(image=img, bg='black' )
 label_img.place(relx=0.5, rely=0.2, anchor="center")
 
